@@ -4,14 +4,14 @@ cask "considered" do
 
   on_macos do
     on_arm do
-      sha256 "88aec21b138f7cbb57b07c3de03df1a3865a2b729524cb503fd9b74cfc533f43"
+      sha256 "c8cd47e127c44537edd075740f42a7ee154351033d47e66e586fa5f64ab579c8"
       url "https://github.com/quitepicky/considered/releases/download/v#{version}/considered_v#{version}_darwin_arm64.tar.gz",
         verified: "github.com/quitepicky/considered/"
       rename "considered_v0.1.11_darwin_arm64/considered", "considered"
       rename "considered_v0.1.11_darwin_arm64/considered-scc", "considered-scc"
     end
     on_intel do
-      sha256 "82a1ddc658d1dc0600d15e3d09793cb4374640f979ba2018605f8055e3057289"
+      sha256 "405b54768a6f7c251ce77f84523ea6afcb7640b596f14a5617bd537cdfdc3019"
       url "https://github.com/quitepicky/considered/releases/download/v#{version}/considered_v#{version}_darwin_amd64.tar.gz",
         verified: "github.com/quitepicky/considered/"
       rename "considered_v0.1.11_darwin_amd64/considered", "considered"
@@ -20,14 +20,14 @@ cask "considered" do
   end
   on_linux do
     on_arm do
-      sha256 "064cc6a5df7b4ff709a099f0af7dfb5d64ca552350c1dee3e232100d12e99386"
+      sha256 "ca2fa27559d503d920d919c15ce3a5996f5d836484491f812e7dac781c6d7fed"
       url "https://github.com/quitepicky/considered/releases/download/v#{version}/considered_v#{version}_linux_arm64.tar.gz",
         verified: "github.com/quitepicky/considered/"
       rename "considered_v0.1.11_linux_arm64/considered", "considered"
       rename "considered_v0.1.11_linux_arm64/considered-scc", "considered-scc"
     end
     on_intel do
-      sha256 "e6d28509424b9fc8c69e47b3f6251723ece422578a5f8ea570310d9009adc077"
+      sha256 "d205d8289bbeff931bb19995dbb0f553d78c88cbd4a68a85380704fd8404e37e"
       url "https://github.com/quitepicky/considered/releases/download/v#{version}/considered_v#{version}_linux_amd64.tar.gz",
         verified: "github.com/quitepicky/considered/"
       rename "considered_v0.1.11_linux_amd64/considered", "considered"
